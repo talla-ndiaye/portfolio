@@ -139,8 +139,8 @@ const Contact = () => {
                 </div>
                 <div>
                   <h4 className="text-lg font-medium text-gray-800 dark:text-white">Email</h4>
-                  <a href="mailto:contact@example.com" className="text-gray-600 dark:text-gray-300 hover:text-blue-600 dark:hover:text-blue-400 transition-colors">
-                    contact@example.com
+                  <a href="mailto:ndiayetalla928@gmail.com" className="text-gray-600 dark:text-gray-300 hover:text-blue-600 dark:hover:text-blue-400 transition-colors">
+                    ndiayetalla928@gmail.com
                   </a>
                 </div>
               </div>
@@ -151,8 +151,8 @@ const Contact = () => {
                 </div>
                 <div>
                   <h4 className="text-lg font-medium text-gray-800 dark:text-white">LinkedIn</h4>
-                  <a href="https://linkedin.com" target="_blank" rel="noopener noreferrer" className="text-gray-600 dark:text-gray-300 hover:text-blue-600 dark:hover:text-blue-400 transition-colors">
-                    linkedin.com/in/jeandupont
+                  <a href="https://www.linkedin.com/in/talla-ndiaye/" target="_blank" rel="noopener noreferrer" className="text-gray-600 dark:text-gray-300 hover:text-blue-600 dark:hover:text-blue-400 transition-colors">
+                    linkedin.com/in/talla-ndiaye
                   </a>
                 </div>
               </div>
@@ -163,8 +163,8 @@ const Contact = () => {
                 </div>
                 <div>
                   <h4 className="text-lg font-medium text-gray-800 dark:text-white">GitHub</h4>
-                  <a href="https://github.com" target="_blank" rel="noopener noreferrer" className="text-gray-600 dark:text-gray-300 hover:text-blue-600 dark:hover:text-blue-400 transition-colors">
-                    github.com/jeandupont
+                  <a href="https://github.com/talla-ndiaye" target="_blank" rel="noopener noreferrer" className="text-gray-600 dark:text-gray-300 hover:text-blue-600 dark:hover:text-blue-400 transition-colors">
+                    github.com/talla-ndiaye
                   </a>
                 </div>
               </div>
