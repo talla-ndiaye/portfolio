@@ -81,16 +81,13 @@ const About = () => {
               <div className="flex flex-wrap gap-4">
                 <div className="bg-gray-100 dark:bg-gray-700 px-4 py-2 rounded-lg">
                   <div className="font-medium text-gray-800 dark:text-white">Français</div>
-                  <div className="text-sm text-gray-500 dark:text-gray-400">Langue maternelle</div>
+                  <div className="text-sm text-gray-500 dark:text-gray-400">Langue Officielle </div>
                 </div>
                 <div className="bg-gray-100 dark:bg-gray-700 px-4 py-2 rounded-lg">
                   <div className="font-medium text-gray-800 dark:text-white">Anglais</div>
-                  <div className="text-sm text-gray-500 dark:text-gray-400">Courant (TOEIC 920)</div>
+                  <div className="text-sm text-gray-500 dark:text-gray-400">Courant (TOEIC 750)</div>
                 </div>
-                <div className="bg-gray-100 dark:bg-gray-700 px-4 py-2 rounded-lg">
-                  <div className="font-medium text-gray-800 dark:text-white">Espagnol</div>
-                  <div className="text-sm text-gray-500 dark:text-gray-400">Intermédiaire</div>
-                </div>
+                
               </div>
             </div>
           </div>
