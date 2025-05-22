@@ -8,10 +8,10 @@ const Hero = () => {
         <div className="md:w-1/2 mb-10 md:mb-0 md:pr-10">
           <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold text-gray-800 dark:text-white mb-4">
             <span className="block">Bonjour, je suis</span>
-            <span className="text-blue-600 dark:text-blue-400">Jean Dupont</span>
+            <span className="text-blue-600 dark:text-blue-400">Talla Ndiaye</span>
           </h1>
           <p className="text-xl md:text-2xl text-gray-600 dark:text-gray-300 mb-8">
-            Étudiant en informatique passionné par le développement web et l'IA
+            Étudiant en informatique passionné par la programmation et l'IA
           </p>
           <div className="flex flex-wrap gap-4">
             <a 
