@@ -41,8 +41,8 @@ const About = () => {
               <div>
                 <h4 className="text-lg font-semibold text-gray-800 dark:text-white mb-2">Formation</h4>
                 <ul className="space-y-2 text-gray-600 dark:text-gray-300">
-                  <li>Master en Informatique (en cours)</li>
-                  <li>Licence en Informatique (2022)</li>
+                  <li>Licence  en Informatique (en cours)</li>
+                  <li>Baccalauréat scientifique (2021)</li>
                 </ul>
               </div>
               <div>
@@ -50,7 +50,7 @@ const About = () => {
                 <ul className="space-y-2 text-gray-600 dark:text-gray-300">
                   <li>Développement Web</li>
                   <li>Intelligence Artificielle</li>
-                  <li>UX/UI Design</li>
+                  <li>Cybersécurité</li>
                   <li>Nouvelles technologies</li>
                 </ul>
               </div>
