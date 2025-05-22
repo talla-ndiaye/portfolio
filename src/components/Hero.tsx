@@ -1,4 +1,3 @@
-import React from 'react';
 import { Download } from 'lucide-react';
 
 const Hero = () => {
@@ -34,9 +33,9 @@ const Hero = () => {
           <div className="relative">
             <div className="w-64 h-64 md:w-80 md:h-80 rounded-full overflow-hidden border-4 border-white dark:border-gray-800 shadow-lg">
               <img 
-                src="https://images.pexels.com/photos/220453/pexels-photo-220453.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2" 
+                src="/profil.png" 
                 alt="Profile" 
-                className="w-full h-full object-cover"
+                className="w-full h-full "
               />
             </div>
             <div className="absolute -bottom-4 -right-4 bg-white dark:bg-gray-800 dark:text-white px-6 py-2 rounded-full shadow-lg">
