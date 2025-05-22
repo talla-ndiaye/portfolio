@@ -16,7 +16,7 @@ const Footer = () => {
           <div className="mb-6 md:mb-0">
             <h2 className="text-2xl font-bold text-blue-400 mb-2">Portfolio</h2>
             <p className="text-gray-400">
-              &copy; {new Date().getFullYear()} Jean Dupont. Tous droits réservés.
+              &copy; {new Date().getFullYear()} Talla Ndiaye. Tous droits réservés.
             </p>
           </div>
           
