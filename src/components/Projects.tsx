@@ -1,5 +1,5 @@
-import React, { useState } from 'react';
-import { Github as GitHub, ExternalLink } from 'lucide-react';
+import { ExternalLink, Github as GitHub } from 'lucide-react';
+import { useState } from 'react';
 
 interface Project {
   id: number;
@@ -19,7 +19,7 @@ const projects: Project[] = [
     description: "Application web e-commerce complète avec panier, paiement et panel administrateur",
     image: "https://images.pexels.com/photos/39284/macbook-apple-imac-computer-39284.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
     technologies: ["React", "Node.js", "MongoDB", "Express"],
-    category: "fullstack",
+    category: "frontend",
     github: "https://github.com",
     demo: "https://demo.com",
   },
@@ -32,7 +32,7 @@ const projects: Project[] = [
     category: "frontend",
     github: "https://github.com",
   },
-  {
+  /*{
     id: 3,
     title: "API REST",
     description: "API RESTful complète pour gérer des données utilisateurs et produits",
@@ -50,15 +50,16 @@ const projects: Project[] = [
     category: "ai",
     github: "https://github.com",
     demo: "https://demo.com",
-  },
+  },*/
   {
     id: 5,
-    title: "Dashboard Analytique",
+    title: "Systéme de Gestion d'une école",
     description: "Interface de visualisation de données avec graphiques interactifs",
     image: "https://images.pexels.com/photos/590022/pexels-photo-590022.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
-    technologies: ["React", "D3.js", "Firebase"],
+    technologies: ["React", ],
     category: "frontend",
     github: "https://github.com",
+    demo: "https://ccht.netlify.app/",
   },
 ];
 
