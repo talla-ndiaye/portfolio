@@ -21,7 +21,7 @@ const projects: Project[] = [
     technologies: ["React", "Node.js", "MongoDB", "Express"],
     category: "frontend",
     github: "https://github.com",
-    demo: "https://demo.com",
+    demo: "https://dhc-outlet.netlify.app/",
   },
   {
     id: 2,
