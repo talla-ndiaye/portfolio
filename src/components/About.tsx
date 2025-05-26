@@ -12,7 +12,10 @@ const skills: Skill[] = [
   { name: 'React', level: 75, color: 'bg-cyan-500' },
   { name: 'Node.js', level: 75, color: 'bg-green-500' },
   { name: 'Python', level: 60, color: 'bg-indigo-500' },
-    { name: 'Mysql', level: 80, color: 'bg-orange-500' },
+  { name: 'Mysql', level: 80, color: 'bg-orange-500' },
+  { name: 'java', level: 50, color: 'bg-blue-500' },
+  { name: 'php', level: 55, color: 'bg-orange-500' },
+  { name: 'c', level: 70, color: 'bg-orange-500' },
 
 ];
 
