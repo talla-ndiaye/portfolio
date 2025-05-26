@@ -1,4 +1,3 @@
-import React from 'react';
 
 interface Skill {
   name: string;
@@ -7,12 +6,14 @@ interface Skill {
 }
 
 const skills: Skill[] = [
-  { name: 'HTML', level: 90, color: 'bg-orange-500' },
-  { name: 'CSS', level: 85, color: 'bg-blue-500' },
-  { name: 'JavaScript', level: 80, color: 'bg-yellow-500' },
+  { name: 'HTML', level: 80, color: 'bg-orange-500' },
+  { name: 'CSS', level: 60, color: 'bg-blue-500' },
+  { name: 'JavaScript', level: 50, color: 'bg-yellow-500' },
   { name: 'React', level: 75, color: 'bg-cyan-500' },
-  { name: 'Node.js', level: 70, color: 'bg-green-500' },
-  { name: 'Python', level: 65, color: 'bg-indigo-500' },
+  { name: 'Node.js', level: 75, color: 'bg-green-500' },
+  { name: 'Python', level: 60, color: 'bg-indigo-500' },
+    { name: 'Mysql', level: 80, color: 'bg-orange-500' },
+
 ];
 
 const About = () => {
