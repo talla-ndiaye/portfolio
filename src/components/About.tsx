@@ -6,16 +6,15 @@ interface Skill {
 }
 
 const skills: Skill[] = [
-  { name: 'HTML', level: 80, color: 'bg-orange-500' },
-  { name: 'CSS', level: 60, color: 'bg-blue-500' },
-  { name: 'JavaScript', level: 50, color: 'bg-yellow-500' },
-  { name: 'React', level: 75, color: 'bg-cyan-500' },
-  { name: 'Node.js', level: 75, color: 'bg-green-500' },
-  { name: 'Python', level: 60, color: 'bg-indigo-500' },
+  { name: 'React', level: 70, color: 'bg-cyan-500' },
+ 
+  { name: 'Express JS', level: 80, color: 'bg-orange-500' },
+  { name: 'Flask', level: 60, color: 'bg-blue-500' },
+  { name: 'Fast Api', level: 50, color: 'bg-blue-500' },
+  { name: 'Mongo DB', level: 50, color: 'bg-green-500' },
   { name: 'Mysql', level: 80, color: 'bg-orange-500' },
-  { name: 'java', level: 50, color: 'bg-blue-500' },
-  { name: 'php', level: 55, color: 'bg-orange-500' },
-  { name: 'c', level: 70, color: 'bg-orange-500' },
+  { name: 'PostgreSQL', level: 80, color: 'bg-orange-500' },
+  
 
 ];
 
@@ -32,7 +31,7 @@ const About = () => {
           <div className="md:w-1/2">
             <h3 className="text-2xl font-semibold text-gray-800 dark:text-white mb-4">Qui suis-je ?</h3>
             <p className="text-gray-600 dark:text-gray-300 mb-4">
-              Je suis un étudiant en informatique passionné par la création d'applications web innovantes et l'exploration des technologies d'intelligence artificielle.
+              Je suis un Développeur en informatique passionné par la création d'applications web innovantes et l'exploration des technologies d'intelligence artificielle.
             </p>
             <p className="text-gray-600 dark:text-gray-300 mb-4">
               Mon parcours m'a permis d'acquérir des compétences solides en développement front-end et back-end, ainsi qu'une bonne compréhension des principes de conception centrés sur l'utilisateur.

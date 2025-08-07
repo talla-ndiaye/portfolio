@@ -21,7 +21,7 @@ const projects: Project[] = [
     technologies: ["React", "Node.js", "MongoDB", "Express"],
     category: "frontend",
     github: "https://github.com",
-    demo: "https://dhc-outlet.netlify.app/",
+    demo: "https://vente-knu9.onrender.com/",
   },
   {
     id: 2,
@@ -53,13 +53,13 @@ const projects: Project[] = [
   },*/
   {
     id: 5,
-    title: "Systéme de Gestion d'une école",
+    title: "Systéme de Gestion scolaire",
     description: "Interface de visualisation de données avec graphiques interactifs",
     image: "https://images.pexels.com/photos/590022/pexels-photo-590022.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
-    technologies: ["React", ],
-    category: "frontend",
+    technologies: ["React","Flask","Python", "MySQL", "JWT" ],
+    category: "fullstack",
     github: "https://github.com",
-    demo: "https://ccht.netlify.app/",
+    demo: "https://ecole-test.netlify.app/",
   },
 ];
 
