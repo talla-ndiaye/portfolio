@@ -1,4 +1,3 @@
-import { Download } from 'lucide-react';
 
 const Hero = () => {
   return (
@@ -13,14 +12,14 @@ const Hero = () => {
           Informaticien passionné par la programmation et l'IA
           </p>
           <div className="flex flex-wrap gap-4">
-            <a 
+           { /*<a 
               href="/cv.pdf" 
               className="inline-flex items-center px-6 py-3 bg-blue-600 hover:bg-blue-700 text-white font-medium rounded-lg transition-colors duration-300"
               download
             >
               <Download size={20} className="mr-2" />
               Télécharger CV
-            </a>
+            </a>*/}
             <button 
               onClick={() => document.getElementById('projects')?.scrollIntoView({ behavior: 'smooth' })}
               className="px-6 py-3 bg-gray-200 hover:bg-gray-300 dark:bg-gray-700 dark:hover:bg-gray-600 text-gray-800 dark:text-gray-200 font-medium rounded-lg transition-colors duration-300"
