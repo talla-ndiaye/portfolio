@@ -16,6 +16,7 @@ const skills: Skill[] = [
   { name: "PostgreSQL", level: 80, color: "bg-orange-500" },
   { name: "Tailwind CSS", level: 85, color: "bg-cyan-500" },
   { name: "Docker", level: 60, color: "bg-blue-500" },
+  {name:"github", level:80, color:"bg-gray-500"}
   
 ];
 
@@ -135,6 +136,10 @@ export default function About() {
                     case "docker":
                       src =
                         "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/docker/docker-original.svg";
+                      break;
+                    case "github":
+                      src =
+                        "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg";
                       break;
                     default:
                       src = `https://ui-avatars.com/api/?name=${encodeURIComponent(
